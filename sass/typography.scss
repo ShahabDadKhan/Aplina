@@ -1,0 +1,14 @@
+.input__field {
+  @include fb;
+  flex-direction: row;
+  &-1 {
+    flex: 2;
+    background: transparent;
+    color: var(--color-text);
+  }
+  &-2 {
+    flex: 1;
+    background: transparent;
+    color: var(--color-text);
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "aplina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahabDadKhan/Aplina.git"
+  },
+  "author": "Shahab Dad Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahabDadKhan/Aplina/issues"
+  },
+  "homepage": "https://github.com/ShahabDadKhan/Aplina#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

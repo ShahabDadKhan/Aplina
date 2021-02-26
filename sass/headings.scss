@@ -1,0 +1,41 @@
+.heading {
+  &__primary {
+    &-1 {
+      @include hp1;
+    }
+
+    &-2 {
+      @include hp2;
+    }
+
+    &-3 {
+      @include hp3;
+    }
+  }
+
+  &__secondary {
+    &-1 {
+      @include hs1;
+    }
+
+    &-2 {
+      @include hs2;
+    }
+
+    &-3 {
+      @include hs3;
+    }
+
+    &-4 {
+      @include hs4;
+    }
+
+    &-5 {
+      @include hs5;
+    }
+
+    &-6 {
+      @include hs6;
+    }
+  }
+}

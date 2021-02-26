@@ -1,0 +1,79 @@
+@mixin hp1 {
+  font-family: "Paytone One";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 90px;
+
+  color: var(--color-text);
+}
+
+@mixin hp2 {
+  font-family: "Paytone One";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: var(--color-text);
+}
+
+@mixin hp3 {
+  font-family: "Paytone One";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--color-text);
+}
+
+@mixin hs1 {
+  font-family: "Open-San";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-text);
+}
+
+@mixin hs2 {
+  font-family: "Open-San";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--color-text);
+}
+
+@mixin hs3 {
+  font-family: "Open-San";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-text);
+}
+
+@mixin hs4 {
+  font-family: "Open-San";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--color-text);
+}
+
+@mixin hs5 {
+  font-family: "Open-San";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--color-text);
+}
+
+@mixin hs6 {
+  font-family: "Open-San";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--color-text);
+}
+
+@mixin fb {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  // align-items: center;
+}
